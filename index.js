@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import { config as dotenvConfig } from "dotenv";
-import router from "./Routes/businessAPI.js";
+import router from "./Routes/index.js";
 import connect  from "./Config/db.js";
 
 
